@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+footer{
+    background-color: cadetblue;
+    height: 12vh;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: auto;
+}
+header{
+    height: 55px;
+    background-color: turquoise;
+    border: 2px solid navy;
+    width: auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+    width: 149px;
+    padding: 0 2px;
+    height: 35px;
+
+}
+nav{
+    display: flex;
+}
+.container{
+    min-height: calc(100vh - 55px - 12vh);
+    display: flex;
+}
+nav ul li:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    
+        width: 458px;
+        height: 20px;
+        border-radius: 2px;
+        margin: 4px 10px 0 5px ;
+    
+}
+.button{
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px 9px;
+    border: 2px solid darkblue;
+    font-weight: 600;
+}
+.slider{
+    display: flex;
+    width: 47vw;
+    margin: 12px auto;
+    overflow: hidden;
+    height: 115vh;
+    
+}
+.class-item img{
+width: 207px;
+height: 200px;
+object-fit: contain;
+padding: 4px 7px;
+overflow: hidden;
+
+}
+.card{
+   
+    background-color: #2874f0;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 1px 7px;
+    
+}
+.lines p{
+    margin: 7px 14px;
+    color: red;
+    
+}
+.hard{
+    display: inline flex;
+    justify-content: space-around;
+    overflow: scroll;
+}
+
